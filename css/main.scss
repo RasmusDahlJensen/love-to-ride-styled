@@ -1,18 +1,9 @@
-@import "/css/colors";
+@use "colors" as c;
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&family=Overpass:wght@300;500;700&display=swap");
 /*font-family: 'M PLUS Rounded 1c', sans-serif;
 font-family: 'Overpass', sans-serif;
 */
 
-$darkOrange: darkorange;
-$orange: #e64448;
-$snowWhite: #fff;
-$darkGrey: #696c6d;
-$darkBlue: #0b354b;
-$lightBlue: #89c5c7;
-$lightGrey: #e1e2df;
-$lightOrange: #eab244;
-$lightRed: #e64448;
 
 
 
@@ -21,12 +12,12 @@ $lightRed: #e64448;
 body {
   width: 400px;
   margin: auto;
-  background-color: $orange;
+  background-color: c.$orange;
   font-family: "Overpass", sans-serif;
 }
 
 header {
-  background-color: $snowWhite;
+  background-color: c.$snowWhite;
   padding-left: 5px;
 }
 
@@ -38,37 +29,37 @@ header {
 
 .local {
   display: block;
-  background-color: $darkOrange;
+  background-color: c.$darkOrange;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
     h1 {
         font-family: "M PLUS Rounded 1c", sans-serif;
-        color: $darkGrey;
+        color: c.$darkGrey;
         font-weight: bold;
     }
     p {
-        color: $snowWhite;
+        color: c.$snowWhite;
         font: weight 300px;
     }
 }
 
 
 .bikes {
-  background-color: $lightGrey;
+  background-color: c.$lightGrey;
   text-align: center;
 }
 
 .signup {
   display: block;
-  background-color: $lightBlue;
-  color: $darkBlue;
+  background-color: c.$lightBlue;
+  color: c.$darkBlue;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
     h1 {
         font-family: "M PLUS Rounded 1c", sans-serif;
-        color: $darkGrey;
+        color: c.$darkGrey;
     }
     label {
         display: block;
@@ -82,17 +73,17 @@ header {
 
 .about {
   display: block;
-  background-color: $lightOrange;
+  background-color: c.$lightOrange;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
     h1 {
-        color: $lightRed;
+        color: c.$lightRed;
         font-family: "M PLUS Rounded 1c", sans-serif;
         font-weight: bold;
     }
     p {
-        color: $darkGrey;
+        color: c.$darkGrey;
       }
       
 }
