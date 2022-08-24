@@ -26,16 +26,17 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
+    h1 {
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        color: #3c3a48;
+        font-weight: bold;
+    }
+    p {
+        color: #e2e1df;
+        font: weight 300px;
+    }
 }
-.local h1 {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  color: #3c3a48;
-  font-weight: bold;
-}
-.local p {
-  color: #e2e1df;
-  font: weight 300px;
-}
+
 
 .bikes {
   background-color: #e1e2df;
@@ -49,18 +50,18 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
-}
-.signup h1 {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  color: #696c6d;
-}
-.signup label {
-  display: block;
-  margin-bottom: 5px;
-}
-.signup input {
-  display: block;
-  margin-bottom: 20px;
+    h1 {
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        color: #696c6d;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+      }
+    input {
+        display: block;
+        margin-bottom: 20px;
+      }
 }
 
 .about {
@@ -69,12 +70,13 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
+    h1 {
+        color: #e64448;
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        font-weight: bold;
+    }
+    p {
+        color: #3c4e3e;
+      }
+      
 }
-.about h1 {
-  color: #e64448;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: bold;
-}
-.about p {
-  color: #3c4e3e;
-}/*# sourceMappingURL=main.css.map */
