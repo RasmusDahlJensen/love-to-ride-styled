@@ -22,18 +22,18 @@ header {
 
 .local {
   display: block;
-  background-color: #e64448;
+  background-color: darkorange;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
 }
 .local h1 {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  color: #3c3a48;
+  color: #696c6d;
   font-weight: bold;
 }
 .local p {
-  color: #e2e1df;
+  color: #fff;
   font: weight 300px;
 }
 
@@ -76,5 +76,5 @@ header {
   font-weight: bold;
 }
 .about p {
-  color: #3c4e3e;
+  color: #696c6d;
 }/*# sourceMappingURL=main.css.map */
