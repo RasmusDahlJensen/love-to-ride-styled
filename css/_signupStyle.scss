@@ -1,0 +1,21 @@
+@use "colors" as c;
+@mixin signupStyle {
+    display: block;
+    background-color: c.$lightBlue;
+    color: c.$darkBlue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+      h1 {
+          font-family: "M PLUS Rounded 1c", sans-serif;
+          color: c.$darkGrey;
+      }
+      label {
+          display: block;
+          margin-bottom: 5px;
+        }
+      input {
+          display: block;
+          margin-bottom: 20px;
+        }
+  }
